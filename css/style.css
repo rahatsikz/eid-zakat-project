@@ -1,0 +1,143 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+:root {
+  --font1: "Inter", sans-serif;
+  --font2: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+}
+header {
+  background-image: url(../image/top-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+.top-part {
+  padding-left: 150px;
+}
+.top-part > h1 {
+  color: white;
+  font-family: var(--font1);
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.top-part > p {
+  color: white;
+  font-family: var(--font2);
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.button-one {
+  text-decoration: none;
+  background-color: #ef233c;
+  color: white;
+  font-family: var(--font1);
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.mid-part {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.mid-image img {
+  border-radius: 8px;
+}
+.mid-text h2 {
+  font-family: var(--font1);
+  font-size: 45px;
+  color: #121212;
+  margin-top: 70px;
+}
+.mid-text p {
+  font-family: var(--font2);
+  font-size: 18px;
+  color: #707070;
+}
+.mid-text p:nth-of-type(2) {
+  margin-bottom: 40px;
+}
+.center-text {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.help-content img {
+  float: left;
+}
+.help-content {
+  width: 25%;
+  background-color: #fef4f5;
+  margin: 20px;
+  padding: 50px;
+  border-radius: 8px;
+}
+.help-content h4 {
+  font-family: var(--font1);
+  font-size: 20px;
+  color: #121212;
+  padding-left: 65px;
+}
+.help-content p {
+  font-family: var(--font2);
+  font-size: 18px;
+  color: #707070;
+}
+.help-part {
+  display: flex;
+  justify-content: center;
+}
+.charity-content h4 {
+  font-family: var(--font1);
+  font-size: 20px;
+  color: #121212;
+  padding-left: 21px;
+}
+.charity-content p {
+  font-family: var(--font2);
+  font-size: 18px;
+  color: #707070;
+  padding-left: 21px;
+}
+.charity-content a {
+  color: #ef233c;
+  font-family: var(--font1);
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 21px;
+}
+.charity-content {
+  width: 19.1%;
+  border: 1px solid #d9d9d9;
+  margin: 20px;
+  padding-bottom: 44px;
+  border-radius: 12px;
+}
+.charity-content img {
+  width: 100%;
+}
+.charity-part {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  text-align: center;
+  margin-top: 100px;
+  padding: 40px 0;
+  background-color: #0b0d17;
+}
+footer h3 {
+  color: #ef233c;
+  font-size: 36px;
+  font-family: var(--font1);
+}
+footer p {
+  color: #d9dbe1;
+  font-size: 14px;
+  font-family: var(--font2);
+}
